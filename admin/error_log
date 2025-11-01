@@ -1,0 +1,12 @@
+[03-Sep-2025 09:11:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home3/web4bjhn/public_html/new/mayuri/admin/product.php:64
+Stack trace:
+#0 {main}
+  thrown in /home3/web4bjhn/public_html/new/mayuri/admin/product.php on line 64
+[03-Sep-2025 09:12:01 UTC] PHP Warning:  Undefined array key "content" in /home3/web4bjhn/public_html/new/mayuri/admin/product.php on line 288
+[03-Sep-2025 09:12:01 UTC] PHP Warning:  Undefined array key "content" in /home3/web4bjhn/public_html/new/mayuri/admin/product.php on line 303
+[03-Sep-2025 09:12:01 UTC] PHP Warning:  Undefined array key "content" in /home3/web4bjhn/public_html/new/mayuri/admin/product.php on line 288
+[03-Sep-2025 09:12:01 UTC] PHP Warning:  Undefined array key "content" in /home3/web4bjhn/public_html/new/mayuri/admin/product.php on line 303
+[03-Sep-2025 09:12:23 UTC] PHP Warning:  Undefined array key "content" in /home3/web4bjhn/public_html/new/mayuri/admin/product.php on line 288
+[03-Sep-2025 09:12:23 UTC] PHP Warning:  Undefined array key "content" in /home3/web4bjhn/public_html/new/mayuri/admin/product.php on line 303
+[03-Sep-2025 09:12:23 UTC] PHP Warning:  Undefined array key "content" in /home3/web4bjhn/public_html/new/mayuri/admin/product.php on line 288
+[03-Sep-2025 09:12:23 UTC] PHP Warning:  Undefined array key "content" in /home3/web4bjhn/public_html/new/mayuri/admin/product.php on line 303

@@ -1,0 +1,217 @@
+<?php 
+$conn = mysqli_connect('localhost','root','','ecomm') or die ('connection failed') .mysqli_connect_error();
+
+?>
+
+<!-- Services Section Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <h1 class="display-6 mb-5">We Provide Professional Heating & Cooling Services</h1>
+        </div>
+
+        <!-- Services Row -->
+        <div class="row g-4 justify-content-center">
+
+            <!-- Single Service Item 1 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item border rounded shadow-sm position-relative overflow-hidden">
+                    <img class="img-fluid" src="img/freezers-500x500.webp" alt="AC Installation">
+                    <!-- Overlay Buttons -->
+                    <div class="overlay-top-right d-flex flex-column">
+                        <a href="cart.php" class="btn btn-primary mb-2"><i class="bi bi-cart-plus"></i></a>
+                        <a href="wishlist.php" class="btn btn-outline-danger"><i class="bi bi-heart"></i></a>
+                    </div>
+                    <!-- Service Title Only -->
+                    <div class="bg-light p-2 text-center">
+                        <a class="h5 mb-0" href="#">AC Installation</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Service Item 2 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-item border rounded shadow-sm position-relative overflow-hidden">
+                    <img class="img-fluid" src="img/r134a-godrej-hydrocarbon-gas-500x500 (1).webp" alt="Performax">
+                    <div class="overlay-top-right d-flex flex-column">
+                        <a href="cart.php" class="btn btn-primary mb-2"><i class="bi bi-cart-plus"></i></a>
+                        <a href="wishlist.php" class="btn btn-outline-danger"><i class="bi bi-heart"></i></a>
+                    </div>
+                    <div class="bg-light p-2 text-center">
+                        <a class="h5 mb-0" href="#">Performax</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Service Item 3 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item border rounded shadow-sm position-relative overflow-hidden">
+                    <img class="img-fluid" src="img/r134a-godrej-hydrocarbon-gas-500x500.webp" alt="Heating Services">
+                    <div class="overlay-top-right d-flex flex-column">
+                        <a href="cart.php" class="btn btn-primary mb-2"><i class="bi bi-cart-plus"></i></a>
+                        <a href="wishlist.php" class="btn btn-outline-danger"><i class="bi bi-heart"></i></a>
+                    </div>
+                    <div class="bg-light p-2 text-center">
+                        <a class="h5 mb-0" href="#">Heating Services</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Service Item 4 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="service-item border rounded shadow-sm position-relative overflow-hidden">
+                    <img class="img-fluid" src="img/service-4.jpg" alt="Maintenance & Repair">
+                    <div class="overlay-top-right d-flex flex-column">
+                        <a href="cart.php" class="btn btn-primary mb-2"><i class="bi bi-cart-plus"></i></a>
+                        <a href="wishlist.php" class="btn btn-outline-danger"><i class="bi bi-heart"></i></a>
+                    </div>
+                    <div class="bg-light p-2 text-center">
+                        <a class="h5 mb-0" href="#">Maintenance & Repair</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="service-item border rounded shadow-sm position-relative overflow-hidden">
+                    <img class="img-fluid" src="img/services/services1.webp" alt="Maintenance & Repair">
+                    <div class="overlay-top-right d-flex flex-column">
+                        <a href="cart.php" class="btn btn-primary mb-2"><i class="bi bi-cart-plus"></i></a>
+                        <a href="wishlist.php" class="btn btn-outline-danger"><i class="bi bi-heart"></i></a>
+                    </div>
+                    <div class="bg-light p-2 text-center">
+                        <a class="h5 mb-0" href="#">Aqua Fresh</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="service-item border rounded shadow-sm position-relative overflow-hidden">
+                    <img class="img-fluid" src="img/services/services 3.webp" alt="Maintenance & Repair">
+                    <div class="overlay-top-right d-flex flex-column">
+                        <a href="cart.php" class="btn btn-primary mb-2"><i class="bi bi-cart-plus"></i></a>
+                        <a href="wishlist.php" class="btn btn-outline-danger"><i class="bi bi-heart"></i></a>
+                    </div>
+                    <div class="bg-light p-2 text-center">
+                        <a class="h5 mb-0" href="#">
+                            Subzero Digital Process Controller</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="service-item border rounded shadow-sm position-relative overflow-hidden">
+                    <img class="img-fluid" src="img/services/services 4webp.webp" alt="Maintenance & Repair">
+                    <div class="overlay-top-right d-flex flex-column">
+                        <a href="cart.php" class="btn btn-primary mb-2"><i class="bi bi-cart-plus"></i></a>
+                        <a href="wishlist.php" class="btn btn-outline-danger"><i class="bi bi-heart"></i></a>
+                    </div>
+                    <div class="bg-light p-2 text-center">
+                        <a class="h5 mb-0" href="#">
+                            Butane Gas Spray</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="service-item border rounded shadow-sm position-relative overflow-hidden">
+                    <img class="img-fluid" src="img/services/services 5.webp" alt="Maintenance & Repair">
+                    <div class="overlay-top-right d-flex flex-column">
+                        <a href="cart.php" class="btn btn-primary mb-2"><i class="bi bi-cart-plus"></i></a>
+                        <a href="wishlist.php" class="btn btn-outline-danger"><i class="bi bi-heart"></i></a>
+                    </div>
+                    <div class="bg-light p-2 text-center">
+                        <a class="h5 mb-0" href="#">
+                            Wesafe Butane Gas</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+<!-- Services Section End -->
+
+<!-- CSS -->
+<style>
+    .service-item {
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        background: #fff;
+        border-radius: 8px;
+    }
+
+    .service-item:hover {
+        transform: scale(1.03);
+    }
+
+    /* Overlay icons (cart & wishlist) */
+    .overlay-top-right {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        z-index: 2;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .service-item:hover .overlay-top-right {
+        opacity: 1;
+    }
+
+    .overlay-top-right a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        transition: transform 0.2s ease;
+    }
+
+    .overlay-top-right a:hover {
+        transform: scale(1.1);
+    }
+
+    /* Image full fit fix */
+    .service-item img {
+        width: 100%;
+        height: 250px;
+        object-fit: contain;
+        background-color: white;
+        transition: transform 0.3s ease;
+    }
+
+    .service-item:hover img {
+        transform: scale(1.05);
+    }
+
+    /* Service Title */
+    .service-item .bg-light {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    /* Responsive tweaks */
+    @media (max-width: 992px) {
+        .service-item img {
+            height: 220px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .service-item img {
+            height: 200px;
+        }
+
+        .overlay-top-right {
+            flex-direction: row;
+            gap: 5px;
+        }
+    }
+</style>
